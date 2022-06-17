@@ -487,7 +487,8 @@ color: #FFFFFF;
   }
   
   .card__side--front-1 {
-    background: linear-gradient(-45deg,#FED39F,  #FE8761);
+     background: linear-gradient(-45deg,#FFC2C2,  #FFD7A8); 
+    /* background: linear-gradient(-45deg,#FDE7EA,  #FDEFDA); */
   }
   
 
@@ -497,7 +498,8 @@ color: #FFFFFF;
   }
   
   .card__side--back-1 {
-    background: linear-gradient(-45deg, #CA9C92, #c7634d);
+    /* background: linear-gradient(-45deg, #CA9C92, #c7634d); */
+    background: linear-gradient(-45deg,#FFD7A8,  #FFC2C2); 
   }
   
 

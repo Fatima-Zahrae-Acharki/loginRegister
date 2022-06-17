@@ -433,7 +433,7 @@ font-family: "inter";
     width: 642px;
     height: 109px;
     border: 0px;
-    border-radius: 20px;
+    /* border-radius: 20px; */
     outline-color: #755750;
     
     
@@ -453,7 +453,7 @@ font-family: "inter";
     background: #755750;
     border-radius: 0px;
     border: 0px;
-     border-radius:20px;
+     /* border-radius:20px; */
     }
 
 #sub{

@@ -14,8 +14,8 @@
 
     <header>
         <nav>
-            <img src="assets/header.png" id="headerimg">
-            <h1 id="abtus">ABOUT US</h1>
+            <img src="assets/Hiring Professional House Painters_ Always Ask This Question About Your Cost Estimate.jpeg" id="headerimg">
+            <h1 id="abtus">OUR PAINTERS</h1>
         </nav>
     </header>
    
