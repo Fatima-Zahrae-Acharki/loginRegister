@@ -10,6 +10,50 @@
   font-family: "Poppins", "Arial", "Helvetica Neue", sans-serif;
 }
 
+
+
+nav {
+  background-color: #634a4485;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  position: fixed;
+  z-index: 4;
+  /* margin-top: -501px; */
+}
+nav>img {
+  height: 90%;
+  margin-left: 20px;
+}
+nav>ul {
+  display: flex;
+  justify-content: space-around;
+
+}
+nav>ul a {
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  list-style: none;
+  width: 122px;
+  color: rgb(255, 255, 255);
+}
+nav>input {
+  border-radius: 10px 10px 0px 10px;
+  border: 0px;
+  background-color: #60443d;
+  color: #fff;
+  font-size: 18px;
+  margin-right: 20px;
+  width: 120px;
+  height: 40px;
+}
+
+
+
+
 /* ==========================================================================
    #GRID
    ========================================================================== */

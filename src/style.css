@@ -41,6 +41,15 @@ body {
 * {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+#popup {
+  background-color: #F2D9D3;
+  height: 500px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 nav {
   background-color: #634a4485;
   width: 100%;
@@ -60,14 +69,16 @@ nav>ul {
   justify-content: space-around;
 
 }
+
 nav>ul a {
   text-decoration: none;
   list-style: none;
-  width: 100px;
+  width: 122px;
   color: rgb(255, 255, 255);
 }
 nav>input {
   border-radius: 10px 10px 0px 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   border: 0px;
   background-color: #60443d;
   color: #fff;
@@ -101,19 +112,19 @@ main {
 }
 #intro-right>div {
   position: absolute;
-  right: 100px;
-  bottom: -95%;
+  right: 121px;
+  bottom: -98%;
   width: 200px;
   height: 250px;
   background-color: #F2D9D3;
-  border-radius: 0px 30px 30px 30px;
+  border-radius: 0px 54px 54px 54px;
 }
 #intro-left {
   display: flex;
   flex-direction: column;
 }
 #intro-left>h5 {
-  margin-top: 60px;
+  margin-top: 76px;
 }
 #intro-left>h2 {
   width: 70%;
@@ -133,6 +144,23 @@ main {
   border: 2px solid #000;
   border-radius: 0px 100px 100px 0px;
   font-size: 16px;
+  
+  
+  /* transition: color .3s ease-in-out, box-shadow .3s ease-in-out;  */
+}
+.expertise-part:hover {
+  margin-bottom: 30px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 2px solid #634a44 ;
+  color: #fff;
+  box-shadow: inset 500px 0 0 0 #F2D9D3 ;;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out; 
+  
+  border-radius: 0px 100px 100px 0px;
+  
 }
 .expertise-part img {
   width: 40px;
@@ -188,7 +216,7 @@ main {
   flex-direction: row;
   justify-content: space-around;
 }
-#meet-our-team>input {
+#meet-our-team>a>input {
   background-color: #755750;
   height: 100px;
   width: 300px;
@@ -199,10 +227,36 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  border: none;
 }
 #meet-our-team>input:hover {
   background-color: #634a44;
+  border: none;
+
 }
+a{
+  color: #fff;
+  text-decoration: none; 
+}
+#contacto{
+  color: #000;
+}
+
+article{
+  background: linear-gradient(to right, #FFC2C2, #FFD7A8 );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+
+    /* background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+    
+}
+#rinbow{
+
+}
+
 
 #meet-our-team>h1 {
   font-weight: bold;
@@ -296,6 +350,8 @@ main {
 #sub-input input[type=button]:hover {
   background-color: #634a44;
 }
+
+
 /* footer */
 footer {
   text-align: center;
@@ -331,3 +387,9 @@ footer {
 input[type=button]:hover {
   transition: .33s;
 }
+
+
+
+
+
+

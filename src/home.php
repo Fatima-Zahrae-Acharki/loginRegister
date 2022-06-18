@@ -16,14 +16,19 @@
   <title>Home</title>
 </head>
 <body>
+  <div id="popup">
+    <input type="text">
+    <input type="text">
+    <input type="button">
+  </div>
   <!-- nav -->
   <nav>
     <img src="loginRegister/assets/painto logo 1.png" alt="">
     <ul>
-      <a href="/loginRegister/src/index.html"><li>Home</li></a>
-      <a href=""><li>servises</li></a>
-      <a href=""><li>painters</li></a>
-      <a href=""><li>contact</li></a>
+      <a href="../src/home.php"><li>Home</li></a>
+      <a href=""><li>services</li></a>
+      <a href="../painters.php"><li>painters</li></a>
+      <a href="../contact.php"><li>contact</li></a>
     </ul>
     <input type="button" value="Login" id="login">
   </nav>
@@ -33,6 +38,9 @@
   <!-- nav end -->
     <header>
       <img src="../dist/living-room-interior-wall-mockup-with-pink-sofa-on-SN3F9Y6 1.png" alt="">
+   
+    </div>
+   
     </header>
     <main>
       <div id="intro-left">
@@ -48,7 +56,7 @@
           <img src="../dist/warranty.png">
           <p>The Best Quality Standards</p>
         </div>
-        <button>Read More About</button>
+        <button><a href="../contact.php"> Read More About</a></button>
       </div>
       <div id="intro-right">
         <img src="../dist/9 simple wall paint ideas that will transform your interior on a budget.png">
@@ -93,12 +101,12 @@
       <p>Our team of painting contractors can create everything from scratch and has ingenious ideas is here and is more than happy to help you.</p>
 
       <div id="team">
-          <img src="../img/bogos.png">
-          <img src="../img/mdm.png">
-          <img src="../img/3azi.png">
+          <img src="../img/bogos.png" id="bogos">
+          <img src="../img/mdm.png" id="mdm">
+          <img src="../img/3azi.png" id="3azi">
       </div>
 
-      <input type="button" value="View Our Team">
+      <a href="../painters.php"><input type="button" value="View Our Team"></a>
     </section>
     <section id="warrenty-part">
       <div id="warrenty">
@@ -118,14 +126,16 @@
     <section id="services">
 
       <div>
-        <img src="../img/simple.png">
-        <img src="../img/design.png">
-        <img src="../img/wallpaper.png">
+        <a href="../painters.php"><img src="../img/simple.png"></a>
+        <a href="../painters.php"><img src="../img/design.png"></a>
+        <a href="../painters.php"><img src="../img/wallpaper.png"></a>
       </div>
-      <p>
-        Life is better in color! <br>
+      <article>
+      <p id="grad-ient">
+         Life is better in color! <br>
         Your professional painting and coating service provider for Tangier ☻.
       </p>
+    </article>
     </section>
     <div id="Subscribe">
       <div id="sub-background"></div>
@@ -140,6 +150,7 @@
       </div>
     </div>
 
+    
 
     <!-- footer -->
 
@@ -165,7 +176,7 @@
           <ul>
             <li>FAQs</li>
             <li>Privacy Policy</li>
-            <li>Contact</li>
+            <li><a href="../contact.php"> Contact</a></li>
           </ul>
         </div>
       </div>
@@ -174,7 +185,9 @@
         <p>Copyright © 2022 Painto Project by Filo-san</p>
       </div>
     </footer>
+    
 
 
 </body>
+
 </html>

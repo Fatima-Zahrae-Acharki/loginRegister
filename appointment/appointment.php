@@ -27,6 +27,16 @@
 </head>
 
 <body>
+<nav>
+    <img src="loginRegister/assets/painto logo 1.png" alt="">
+    <ul>
+      <a href="../loginRegister/src/home.php"><li>Home</li></a>
+      <a href=""><li>services</li></a>
+      <a href="./painters.php"><li>painters</li></a>
+      <a href="./contact.php"><li>contact</li></a>
+    </ul>
+    <input type="button" value="Login" id="login">
+  </nav>
     <div class="page-wrapper bg-gra-01 p-t-180 p-b-100 font-poppins">
         <div class="wrapper wrapper--w780">
             <div class="card card-3">
@@ -35,13 +45,13 @@
                     <h2 class="title">Your Appointment</h2>
                     <form method="POST">
                         <div class="input-group">
-                            <input class="input--style-3 js-datepicker" type="text" placeholder="Reservation Date" name="birthday">
+                            <input class="input--style-3 js-datepicker" type="text" placeholder="Reservation Date" name="reservationDate">
                             <i class="zmdi zmdi-calendar-note input-icon js-btn-calendar"></i>
                         </div>
                 
                         <div class="input-group">
                             <div class="rs-select2 js-select-simple select--no-search">
-                                <select name="gender">
+                                <select name="Ladder">
                                     <option disabled="disabled" selected="selected">Ladder</option>
                                     <option></option>
                                     <option>Yes</option>
@@ -51,20 +61,20 @@
                             </div>
                         </div>
                         <div class="input-group">
-                            <input class="input--style-3 js-datepicker" type="text" placeholder="Start Date" name="birthday">
+                            <input class="input--style-3 js-datepicker" type="text" placeholder="Start Date" name="startDate">
                             <i class="zmdi zmdi-calendar-note input-icon js-btn-calendar"></i>
                         </div>
                         <div class="input-group">
-                            <input class="input--style-3 js-datepicker" type="text" placeholder="End Date" name="birthday">
+                            <input class="input--style-3 js-datepicker" type="text" placeholder="End Date" name="endDate">
                             <i class="zmdi zmdi-calendar-note input-icon js-btn-calendar"></i>
                         </div>
                         <div class="input-group">
-                            <input class="input--style-3 " type="text" placeholder="Description" name="Description">
+                            <input class="input--style-3 " type="text" placeholder="Description" name="description">
 
                         </div>
 
                         <div class="p-t-10">
-                            <button class="btn btn--pill btn--green" type="submit">Make Appointment</button>
+                            <button class="btn btn--pill btn--green" name="submit">Make Appointment</button>
                         </div>
                     </form>
                 </div>

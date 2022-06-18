@@ -1,0 +1,54 @@
+Id,Nom,Bibliothèque de formes,ID de page,Contenu par,Groupe,Source de la ligne,Destination de la ligne,Source de la flèche,Destination de la flèche,Statut,Zone de texte 1,Zone de texte 2,Zone de texte 3
+1,Document,,,,,,,,,EN ATTENTE DE RÉVISION,Classe UML,,
+2,Page,,,,,,,,,,Classe UML,,
+3,Classe,UML,2,,,,,,,,RESERVATION,"​+reservation_ID : INT
++reservation_date : Date
++ladder : Tinyint
++description : String (600)
++address : String (60)
++begin_date : Date
++end_date : Date",
+4,Classe,UML,2,,,,,,,,PAINTER,"​+ painter_ID : INT
++first_name : String (60)
++last_name : String (60)
++picture  : String (2000)
++description : String (600)",
+5,Classe,UML,2,,,,,,,,USER,"​+ user_ID : INT
++ first_name : String (60)
++last_name : String (60)
++phone : String (60)
++email : String (60)
++address : String (60)
++password : String (15)",
+6,Conteneur rectangulaire arrondi,Formes des organigrammes,2,,21,,,,,,,,
+7,Texte,Standard,2,6,21,,,,,,En savoir plus sur ce modèle,,
+8,Texte,Standard,2,6,21,,,,,,"Tutoriels sur les diagrammes de classe UML
+(Maintenir la touche Majuscule + ⌘ ou Ctrl, puis cliquer)",,
+9,Bouton,Maquettes IU,2,6,21,,,,,,Découvrir les diagrammes de classes UML,,
+10,Image de l'utilisateur,Images de l'utilisateur,2,6,21,,,,,,,,
+11,MinimalTextBlock,Standard,2,6,21,,,,,,"Les diagrammes de classes UML décrivent la structure d'un système donné en modélisant ses classes, attributs, opérations et relations entre objets.
+
+Pour personnaliser ce modèle :
+Cliquez sur une forme, puis saisissez les informations que vous souhaitez inclure. 
+Ajoutez des formes de classe et organisez-les selon les besoins.
+Actualisez la cardinalité.
+Cliquez sur une ligne et utilisez la barre de propriétés pour ajuster les points de terminaison.
+Cliquez sur une ligne et survolez l'icône d'engrenage pour préciser les multiplicités.
+Ajoutez des lignes supplémentaires en survolant une forme et en cliquant sur le point rouge.",,
+12,Texte,Standard,2,,22,,,,,,Classe UML,,
+13,Texte,Standard,2,,22,,,,,,"Fatima Zahrae Acharki  |  June 7, 2022",,
+14,Classe,UML,2,,,,,,,,SERVICE,"​+ service_ID : Char
++name : String (60)
++description : String (600)",
+15,Classe,UML,2,,,,,,,,ARTWORK,"​+artwork_ID : Char
++picture : String (2000)
++title : String (60)
++description : String (600)
++date_of_realising  : Date",
+16,Ligne,,2,,,5,3,None,None,,1..1,0..*,make
+17,Ligne,,2,,22,,12,None,None,,,,
+18,Ligne,,2,,,4,3,None,None,,1..*,1..*, hired for
+19,Ligne,,2,,,14,15,None,None,,1..1,1..*,refers to
+20,Ligne,,2,,,4,15,None,None,,1..*,1..*,do
+21,Groupe 1,,2,,,,,,,,,,
+22,Groupe 2,,2,,,,,,,,,,

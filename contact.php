@@ -8,15 +8,24 @@
     <title> Pianto </title>
 </head>
 <body>
-    
+<nav>
+    <img src="loginRegister/assets/painto logo 1.png" alt="">
+    <ul>
+      <a href="../loginRegister/src/home.php"><li>Home</li></a>
+      <a href=""><li>services</li></a>
+      <a href="./painters.php"><li>painters</li></a>
+      <a href="./contact.php"><li>contact</li></a>
+    </ul>
+    <input type="button" value="Login" id="login">
+  </nav>
     <header>
-        <nav>
-            <div>
+       
+            
                 <img src="assets/header.png" id="header">
                 <h1 id="Inter">Our Contact</h1>
-            </div>
             
-        </nav>
+            
+       
     </header>
 
     <main>
