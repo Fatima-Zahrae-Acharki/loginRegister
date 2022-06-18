@@ -15,12 +15,14 @@
   <link rel="stylesheet" href="style.css">
   <title>Home</title>
 </head>
+
 <body>
   <div id="popup">
     <input type="text">
     <input type="text">
     <input type="button">
   </div>
+
   <!-- nav -->
   <nav>
     <img src="loginRegister/assets/painto logo 1.png" alt="">

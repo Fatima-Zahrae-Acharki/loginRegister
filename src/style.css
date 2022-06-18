@@ -42,13 +42,26 @@ body {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 #popup {
+
   background-color: #F2D9D3;
   height: 500px;
   width: 500px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
+  border-radius: 20px;
+  position: fixed;
+  top: 100px;
+}
+#popup:active {
+  transition: .33s;
+  width: 0px;
+  height: 0px;
+}
+#popup input {
+  width: 60%;
+  height: 50px;
 }
 nav {
   background-color: #634a4485;
