@@ -43,12 +43,22 @@
                 <div class="card-heading"></div>
                 <div class="card-body">
                     <h2 class="title">Your Appointment</h2>
+
+
+
+   
+
+
+    
+
+
+
                     <form method="POST">
                         <div class="input-group">
                             <input class="input--style-3 js-datepicker" type="text" placeholder="Reservation Date" name="reservationDate">
                             <i class="zmdi zmdi-calendar-note input-icon js-btn-calendar"></i>
                         </div>
-                
+                    
                         <div class="input-group">
                             <div class="rs-select2 js-select-simple select--no-search">
                                 <select name="Ladder">

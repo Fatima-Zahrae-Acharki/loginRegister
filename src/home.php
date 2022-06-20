@@ -6,6 +6,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">  
+  <link rel="stylesheet" href="bootstrap.min.css">  
+
   <style>
     @font-face {
       font-family: "MyFont";
@@ -17,22 +20,29 @@
 </head>
 
 <body>
-  <div id="popup">
+
+  <!-- <div id="popup">
     <input type="text">
     <input type="text">
     <input type="button">
-  </div>
+  </div> -->
 
   <!-- nav -->
   <nav>
+
+    
+
+
     <img src="loginRegister/assets/painto logo 1.png" alt="">
     <ul>
       <a href="../src/home.php"><li>Home</li></a>
-      <a href=""><li>services</li></a>
-      <a href="../painters.php"><li>painters</li></a>
-      <a href="../contact.php"><li>contact</li></a>
+      <a href=""><li>Services</li></a>
+      <a href="../painters.php"><li>Painters</li></a>
+      <a href="../contact.php"><li>Contact</li></a>
     </ul>
-    <input type="button" value="Login" id="login">
+    <input type="button" value="Login" id="login" >
+    
+    
   </nav>
   <div class="rect" id="green"></div>
   <div class="rect" id="blue"></div>    
@@ -189,7 +199,8 @@
     </footer>
     
 
-
+<script src="bootstrap.bundle.js"></script>
+<script src="bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

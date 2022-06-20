@@ -54,10 +54,10 @@
 
 
      ?>
-        <section class="section-plans" id="section-plans">
+        <section class="section-plans" id="section-plans" >
            
        
-            <div class="row">
+            <div class="row" >
               <div class="col-1-of-3">
                 <div class="card">
                   <div class="card__side card__side--front-1">
@@ -80,7 +80,7 @@
                         <p class="card__price-only">Shi daka d atay</p>
                         <p class="card__price-value">KITLI BATAL</p>
                       </div>
-                      <a href="#popup" class="btn btn--white">Select</a>
+                      <a href="appointment/appointment.php" class="btn btn--white">Select</a>
                     </div>
                   </div>
                 </div>

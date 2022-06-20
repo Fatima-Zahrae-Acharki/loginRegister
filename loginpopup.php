@@ -10,6 +10,7 @@
 </head>
 <body>
 <!-- partial:index.partial.html -->
+<style></style>
 <div class="popup-container">
 	<label class="popup-button" for="login-popup">Login</label>
 	<input type="checkbox" id="login-popup">

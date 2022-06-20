@@ -63,7 +63,7 @@
         </div>
 
 
-        <form id="form" action="" method="$_POST">
+        <form id="form" action="" method="POST">
 
             <h5 id="phonefrm">Phone</h5>
 
@@ -72,16 +72,16 @@
                 <h5 id="formem">Email</h5>
                 <input type="text" placeholder="Your Email" id="emailfrm" name="email">
                 <h5 id="message">Message</h5>
-                <input type="message" placeholder="message" id="formmsg" name="">
+                <input type="message" placeholder="message" id="formmsg" name="message">
                 <button id="btn" name="submit" > Send message</button> 
 </form>
+
 <?php
         include"./connection.php";
         if (isset($_POST['submit'])) {
 
                   //data  info
                   
-                  $contact_id = $_POST['contat_ID'];
                   $first_name = $_POST['firstName'];
                   $last_name = $_POST['lastName'];
                   $email = $_POST['email'];
@@ -91,13 +91,13 @@
 
 
                     //data info >> database >> client
-                        $sql = "INSERT INTO contact(`contact_ID`, `firstName`, `lastName`, `email`, `message` ) VALUES ('$contact_ID', '$firstName', '$lastName','$email','$message')";
-						
+                        $sql = "INSERT INTO contact(`firstName`, `lastName`, `email`, `message` ) VALUES ('$firstName', '$lastName','$email','$message')";
+				
                         $query = mysqli_query($conn, $sql);
 
 
                     
-                        header('location: loginpopup.php');
+                        header('location: contact.php');
                         mysqli_close($conn);
                         die();
 
