@@ -54,7 +54,7 @@
 
 
      ?>
-        <section class="section-plans" id="section-plans" >
+     
            
        
             <div class="row" >
@@ -63,7 +63,7 @@
                   <div class="card__side card__side--front-1">
                     <div class="card__title card__title--1">
                    
-                     <img src="assets/painter.jpg" style="width: 200px; height: 200px; margin-top:30px; border;">
+                     <img src="<?php echo 'slaves/'.$row['picture'];?>" style="width: 230px; height: 230px; margin-top:30px; border;">
                     </div>
         
                     <div class="card__details">
@@ -85,13 +85,6 @@
                   </div>
                 </div>
               </div>
-
-
-      
-             
-        
-          
-          </section>
 
           <?php }?>
         </div>

@@ -82,8 +82,8 @@
 
                   //data  info
                   
-                  $first_name = $_POST['firstName'];
-                  $last_name = $_POST['lastName'];
+                  $firstName = $_POST['firstName'];
+                  $lastName = $_POST['lastName'];
                   $email = $_POST['email'];
                   $message = $_POST['message'];
                   

@@ -33,6 +33,10 @@ nav>ul a {
   width: 122px;
   color: rgb(255, 255, 255);
 }
+nav>ul a:hover{
+    color: #60443d;
+    text-decoration-line: underline;
+}
 nav>input {
   border-radius: 10px 10px 0px 10px;
   border: 0px;
@@ -82,7 +86,7 @@ nav>input {
 
 #card {
     margin-top: 500px;
-    
+      
     
 }
 
@@ -511,7 +515,7 @@ color: #FFFFFF;
   }
   
   .card__side {
-    height: 52rem;
+    height: 40rem;
     -webkit-transition: all 0.8s ease;
     transition: all 0.8s ease;
     position: absolute;

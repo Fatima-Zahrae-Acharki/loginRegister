@@ -234,6 +234,11 @@ a{
   color: #fff;
   text-decoration: none; 
 }
+a:hover{
+  color: #60443d;
+  text-decoration: none; 
+  text-decoration-line: underline;
+}
 #contacto{
   color: #000;
 }
@@ -249,9 +254,7 @@ article{
   -webkit-text-fill-color: transparent; */
     
 }
-#rinbow{
 
-}
 
 
 #meet-our-team>h1 {
