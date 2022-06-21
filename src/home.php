@@ -36,7 +36,7 @@
     <img src="loginRegister/assets/painto logo 1.png" alt="">
     <ul>
       <a href="../src/home.php"><li>Home</li></a>
-      <a href=""><li>Services</li></a>
+      <a href="../services.php"><li>Services</li></a>
       <a href="../painters.php"><li>Painters</li></a>
       <a href="../contact.php"><li>Contact</li></a>
     </ul>
@@ -68,7 +68,7 @@
           <img src="../dist/warranty.png">
           <p>The Best Quality Standards</p>
         </div>
-        <button><a href="../contact.php"> Read More About</a></button>
+        <button><a href="../contact.php"> Read More About Us</a></button>
       </div>
       <div id="intro-right">
         <img src="../dist/9 simple wall paint ideas that will transform your interior on a budget.png">

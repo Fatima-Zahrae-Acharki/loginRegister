@@ -8,7 +8,7 @@
     <script src="https://kit.fontawesome.com/bdd89edb33.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet" />
     <link rel="stylesheet" href="css/style.css" />
-    <title>PIANTOOOOOO</title>
+    <title>PAINTOOOO</title>
 </head>
 <body>
 <nav>
@@ -24,8 +24,8 @@
     <header>
         
           
-            <img src="assets/Hiring Professional House Painters_ Always Ask This Question About Your Cost Estimate.jpeg" id="headerimg">
-            <h1 id="abtus">OUR PAINTERS</h1>
+            <img src="images/spacejoy-q3Qd86sfaoU-unsplash.jpg" id="headerimg">
+            <h1 id="abtus">OUR SERVICES</h1>
         
     </header>
    
